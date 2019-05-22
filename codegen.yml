@@ -1,0 +1,21 @@
+overwrite: true
+schema: "https://core-graphql.dev.waldo.photos/pizza"
+documents: "src/data/**/*.ts"
+config:
+  skipTypename: false
+  avoidOptionals: false
+  scalars:
+    ParsableDate: string
+    DateTime: Date
+generates:
+  src/gql/generated.tsx :
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      # - "typescript-react-apollo"
+  src/gql/graphql.schema.json:
+    plugins:
+      - "introspection"
+  src/gql/introspection.ts:
+    plugins:
+      - "fragment-matcher"
