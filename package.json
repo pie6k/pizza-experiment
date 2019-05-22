@@ -1,5 +1,5 @@
 {
-  "name": "tableview",
+  "name": "pizza-experiment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
     "react-scripts": "3.0.1",
     "styled-components": "^4.2.0"
   },
-  "homepage": "https://pie6k.github.io/tableview-experiment",
+  "homepage": "https://pie6k.github.io/pizza-experiment",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
