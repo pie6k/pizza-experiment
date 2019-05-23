@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/pizza-experiment/static/js/main.6f9e7772.chunk.js",
-    "main.js.map": "/pizza-experiment/static/js/main.6f9e7772.chunk.js.map",
+    "main.js": "/pizza-experiment/static/js/main.4381e9ea.chunk.js",
+    "main.js.map": "/pizza-experiment/static/js/main.4381e9ea.chunk.js.map",
     "runtime~main.js": "/pizza-experiment/static/js/runtime~main.95ef854d.js",
     "runtime~main.js.map": "/pizza-experiment/static/js/runtime~main.95ef854d.js.map",
     "static/js/2.e2cbd27c.chunk.js": "/pizza-experiment/static/js/2.e2cbd27c.chunk.js",
     "static/js/2.e2cbd27c.chunk.js.map": "/pizza-experiment/static/js/2.e2cbd27c.chunk.js.map",
     "index.html": "/pizza-experiment/index.html",
-    "precache-manifest.065b929664ef4759caf5914b6542a4a6.js": "/pizza-experiment/precache-manifest.065b929664ef4759caf5914b6542a4a6.js",
+    "precache-manifest.500ed6797b25e417cc6fb18724bd607b.js": "/pizza-experiment/precache-manifest.500ed6797b25e417cc6fb18724bd607b.js",
     "service-worker.js": "/pizza-experiment/service-worker.js"
   }
 }
