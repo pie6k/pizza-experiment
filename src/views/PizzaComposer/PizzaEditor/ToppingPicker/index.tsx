@@ -1,10 +1,4 @@
 import React from 'react';
-import {
-  ComposedPizza,
-  calculatePizzaPrice,
-  getPizzaSizeByType,
-} from 'services/pizza';
-import { usePizzaSizes } from 'data';
 import { Topping } from 'gql';
 import styled, { css } from 'styled-components';
 

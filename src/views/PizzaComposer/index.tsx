@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ComposedPizza, calculatePizzaPrice } from 'services/pizza';
 
 import { PizzaEditor } from './PizzaEditor';
@@ -49,8 +49,6 @@ export function PizzaComposer({ pizzas = [], onChange }: Props) {
   const totalPrice = pizzas.reduce((total, anotherPizza) => {
     return total + calculatePizzaPrice(anotherPizza, sizes);
   }, 0);
-
-  console.log(totalPrice);
 
   return (
     <div>

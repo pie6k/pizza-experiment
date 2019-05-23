@@ -37,8 +37,6 @@ export function usePizzaSizes() {
     [],
   ) as PizzaSize[];
 
-  console.log({ data });
-
   function getSize(size: PizzaSizes) {
     return getPizzaSizeByType(sizes, size);
   }
